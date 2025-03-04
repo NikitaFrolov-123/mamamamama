@@ -1,0 +1,16 @@
+.footer__inner{
+    margin-top: 152px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.footer__akif{
+    font-size: 21px;
+    color: var(--secondary-);
+}
+
+.footer__list{
+    display: flex;
+    gap: 32px;
+}

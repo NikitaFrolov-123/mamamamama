@@ -1,0 +1,18 @@
+.header__inner{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+} 
+
+.header__list{
+    display: flex;
+    gap: 32px;
+    font-size: 21px;
+}
+
+.header{
+    margin-bottom: 104px;
+}

@@ -1,0 +1,34 @@
+.contact__inner{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__text{
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 347px;
+    font-size: 32px;
+}
+
+.contact__text img{
+    display: inline-block;
+    transform: translateX(-30px) translateY(20px);
+    max-width: 21px;
+}
+
+.contact__info{
+    margin-top: 70px;
+}
+
+.contact__mail{
+    font-size: 32px;
+    display: flex;
+}
+
+.contact__resume{
+    font-size: 18px;
+    margin-top: 27px;
+    display: inline-block;
+}   

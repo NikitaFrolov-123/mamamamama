@@ -1,0 +1,22 @@
+.body{
+    background-color: var(--white-);
+    color: var(--black-);
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1120px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.home_title{
+    max_width: 480px;
+    max-height: 200px;
+}
+
+.home_text{
+    max_width: 575px;
+    max-height: 360px;
+}
