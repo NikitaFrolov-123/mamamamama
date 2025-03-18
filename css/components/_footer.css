@@ -14,3 +14,12 @@
     display: flex;
     gap: 32px;
 }
+
+@media (max-width: 465px){
+    .footer__akif{
+        font-size: 15px;
+    }
+    .footer__list{
+        font-size: 13px;
+    }
+}

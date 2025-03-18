@@ -14,8 +14,8 @@
 
 .contact__text img{
     display: inline-block;
-    transform: translateX(-30px) translateY(20px);
-    max-width: 21px;
+    width: 24px;
+    height: 21px;
 }
 
 .contact__info{
@@ -32,3 +32,50 @@
     margin-top: 27px;
     display: inline-block;
 }   
+
+@media(max-width: 992px){
+    .contact__text{
+        font-size: 28px;
+    }
+    .contact__mail{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 770px){
+    .contact__text {
+        display: block;
+        font-size: 24px;
+      }
+      .contact__mail{
+        font-size: 24px;
+      }
+      .footer__inner{
+        font-size: 17px;
+      }
+      .contact__inner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+      .contact__text img{
+        display: block;
+        transform: rotate(90deg);
+        max-width: 21px;
+        margin: 25px auto 0;
+      }
+}
+
+
+@media (max-width: 465px){
+    .contact__text{
+        font-size: 20px;
+    }
+    .contact__mail{
+    font-size: 20px;
+}
+.contact__resume{
+    font-size: 15px;
+}
+}

@@ -16,3 +16,13 @@
 .header{
     margin-bottom: 104px;
 }
+
+@media (max-width: 465px){
+    .header__inner ul{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 375px){
+    
+}

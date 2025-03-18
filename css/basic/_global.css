@@ -12,11 +12,11 @@
 }
 
 .home_title{
-    max_width: 480px;
+    max-width: 480px;
     max-height: 200px;
 }
 
 .home_text{
-    max_width: 575px;
+    max-width: 575px;
     max-height: 360px;
 }

@@ -34,3 +34,23 @@
 .skills__description p:not(:last-child) {
   margin-bottom: 24px;
 }
+
+@media (max-width: 770px){
+  .skills__item{
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .skills{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 610px){
+  .skills__item{
+    font-size: 16px;
+  }
+}
