@@ -1,5 +1,5 @@
 .header__inner{
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,7 @@
     display: none;
     width: 100%;
     height: 100%;
-    background-color: brown;
+    background-color: gray;
     color: white;
     padding: 80px 15px 30px;
     position: fixed;
@@ -34,8 +34,11 @@
 }
 
 @media (max-width: 600px){
-    .header__list{
+    .header__nav{
         display: none;
+    }
+    .header__list{
+        flex-direction: column;
     }
     .header__mobile{
         display: block;
