@@ -22,13 +22,14 @@
 }
 
 .cases__card{
-    gap: 124px;
+    gap: 30px;
     display: flex;
     margin-top: 114px;
     max-width: 1120px;
     margin-bottom: 105px;
     padding-bottom: 105px;
     border-bottom: 2px solid black;
+    justify-content: space-between;
 }
 
 .cases__description{
@@ -59,4 +60,82 @@
 .cases__content{
     display: flex;
     flex-direction: column;
+}
+
+
+
+@media (max-width:1200px){
+    .cases__title{
+        font-size: 53px;
+    }
+    .cases__text{
+        font-size: 26px;
+    }
+    .cases__number{
+        font-size: 18px;
+    }
+    .cases__content p{
+        font-size: 16px;
+    }
+    .cases__link{
+        font-size: 16px;
+    }
+    .cases__img {
+        height: 345px;
+    }
+}
+
+@media (max-width:992px){
+    .cases__title{
+        font-size: 45px;
+    }
+    .cases__text{
+        font-size: 20px;
+    }
+    .cases__arrow{
+        height: 35px;
+    }
+    .cases__number{
+        font-size: 16px;
+    }
+    .cases__content p{
+        font-size: 14px;
+    }
+    .cases__link{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:770px){
+    .cases__title{
+        font-size: 40px;
+    }
+    .cases__text{
+        font-size: 16px;
+    }
+    .cases__arrow{
+        height: 30px;
+    }
+    .cases__number{
+        font-size: 14px;
+    }
+    .cases__content p{
+        font-size: 12px;
+    }
+    .cases__img{
+        height: 250px;
+        
+    }
+}
+
+@media (max-width:610px){
+    .header__nav{
+        display: none;
+    }
+    .header__list{
+        flex-direction: column;
+    }
+    .header__mobile{
+        display: block;
+    }
 }
