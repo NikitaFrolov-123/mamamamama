@@ -45,7 +45,7 @@
   transform: rotate(-45deg) translate(6px, -7px);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
   .toggle-mnu {
     display: block;
   }
