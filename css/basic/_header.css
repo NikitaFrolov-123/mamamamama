@@ -5,6 +5,8 @@
     align-items: center;
     gap: 50px;
     margin-top: 50px;
+    z-index: 50;
+    position: relative;
 } 
 
 .header__list{
@@ -30,7 +32,8 @@
 }
 
 .header__mobile.active{
-    transform: translateX(0);
+    transform: translateX(0%);
+    top: 0;
 }
 
 @media (max-width: 600px){
@@ -38,7 +41,9 @@
         display: none;
     }
     .header__list{
+        margin-top: 40px;
         flex-direction: column;
+        gap: 10px;
     }
     .header__mobile{
         display: block;
